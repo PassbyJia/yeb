@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yeb-generator" />
         <module name="yeb-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="yeb" target="8" />
+      <module name="yeb-generator" target="1.7" />
       <module name="yeb-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
