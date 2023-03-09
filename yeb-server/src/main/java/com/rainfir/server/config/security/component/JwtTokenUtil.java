@@ -1,4 +1,4 @@
-package com.rainfir.server.config.security;
+package com.rainfir.server.config.security.component;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
