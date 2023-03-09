@@ -2,6 +2,9 @@ package com.rainfir.server.mapper;
 
 import com.rainfir.server.pojo.Admin;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.rainfir.server.pojo.Menu;
+
+import java.util.List;
 
 /**
  * <p>

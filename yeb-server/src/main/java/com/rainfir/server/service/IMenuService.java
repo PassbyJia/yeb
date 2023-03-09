@@ -3,6 +3,8 @@ package com.rainfir.server.service;
 import com.rainfir.server.pojo.Menu;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -13,4 +15,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IMenuService extends IService<Menu> {
 
+    /**
+     * 根据用户ID查询菜单列表
+     *
+     */
+    List<Menu> getMenusByAdminId();
 }
