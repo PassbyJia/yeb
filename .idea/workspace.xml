@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/JoblevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/JoblevelController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PositionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PositionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/yeb-server/target/" />
@@ -37,7 +33,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="9" />
-          <entry key="java" value="83" />
+          <entry key="java" value="85" />
           <entry key="xml" value="16" />
           <entry key="yml" value="6" />
         </counts>
@@ -45,7 +41,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="83" />
+          <entry key="JAVA" value="85" />
           <entry key="XML" value="16" />
           <entry key="YAML" value="6" />
         </counts>
@@ -53,14 +49,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="7442" />
+          <entry key="java" value="7860" />
           <entry key="xml" value="1041" />
           <entry key="yml" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7442" />
+          <entry key="JAVA" value="7860" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="SQL" value="2" />
           <entry key="XML" value="1039" />
@@ -71,33 +67,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="42" selection-start-line="42" selection-end-line="44" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/JoblevelController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="e#787#788#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PositionController.java">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="237">
+              <caret line="45" column="22" selection-end-line="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#709#710#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,6 +143,8 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/JoblevelController.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PositionController.java" />
+        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissController.java" />
+        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissionController.java" />
       </list>
     </option>
   </component>
@@ -292,7 +273,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1678432775661" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1678434127514" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security-test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -402,12 +383,12 @@
       <workItem from="1678252163730" duration="2479000" />
       <workItem from="1678274312796" duration="9551000" />
       <workItem from="1678333066699" duration="11436000" />
-      <workItem from="1678427659358" duration="4889000" />
+      <workItem from="1678427659358" duration="6361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46347000" />
+    <option name="totallyTimeSpent" value="47819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,7 +403,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25268096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +413,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20992908" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20992908" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.09219858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -466,20 +447,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1699">
-          <caret line="76" column="14" lean-forward="true" selection-start-line="76" selection-start-column="14" selection-end-line="76" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/RespBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
@@ -860,6 +827,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="45" column="22" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
