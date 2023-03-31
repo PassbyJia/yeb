@@ -1,6 +1,8 @@
 <template>
     <div>
-        <el-form :rules="rules" ref="loginForm" :model="loginForm" class="loginContainer">
+        <el-form :rules="rules" ref="loginForm" :model="loginForm" class="loginContainer"
+            v-loading="loading" element-loading-text="正在登陆" element-loading-spinner="el-icon-loading"
+            element-loading-background="rgba(0,0,0,0.8)">
             <h3 class="loginTitle">系统登录</h3>
             <el-form-item prop="username">
                 <el-input type="text" v-model="loginForm.username" auto-complete="false"
@@ -23,7 +25,6 @@
 </template>
 
 <script>
-    import {postRequest} from "../utils/api";
 
     export default {
         name: "Login",
@@ -35,14 +36,12 @@
                     password: '123',
                     code:''
                 },
+                loading:false,
                 checked: true,
                 rules: {
-                    username: [{required: true, message: '请输入用户名', trigger:
-                            'blur'}],
-                    password: [{required: true, message: '请输入密码', trigger:
-                            'blur'}],
-                    code: [{required: true, message: '请输入验证码', trigger:
-                            'blur'}]
+                    username: [{required: true, message: '请输入用户名', trigger: 'blur'}],
+                    password: [{required: true, message: '请输入密码', trigger: 'blur'}],
+                    code: [{required: true, message: '请输入验证码', trigger: 'blur'}]
                 }
             }
         },
@@ -54,9 +53,15 @@
             submitLogin(){
                 this.$refs.loginForm.validate((valid)=>{
                     if (valid){
-                        postRequest('/login',this.loginForm).then(resp=>{
+                        this.loading = true;
+                        console.log(this.postRequest);
+                        this.postRequest('/login',this.loginForm).then(resp=>{
+                            this.loading = false;
                             if (resp){
-                                alert(JSON.stringify(resp));
+                                //存储用户token
+                                const tokenStr = resp.obj.tokenHead+resp.obj.token;
+                                window.sessionStorage.setItem('tokenStr',tokenStr);
+                                this.$router.replace('/home');
                             }
                         })
                     } else {
