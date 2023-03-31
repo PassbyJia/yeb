@@ -3,14 +3,14 @@
         <el-container>
             <el-header class="homeHeader">
                 <div class="title">云E办</div>
-                <el-dropdown class="userInfo">
+                <el-dropdown class="userInfo" @command="commandHandler">
                 <span class="el-dropdown-link">
                 {{user.name}}<img src="user.userFace"></img>
                 </span>
                     <el-dropdown-menu slot="dropdown">
-                        <el-dropdown-item>个人中心</el-dropdown-item>
-                        <el-dropdown-item>设置</el-dropdown-item>
-                        <el-dropdown-item>注销登录</el-dropdown-item>
+                        <el-dropdown-item command="userinfo">个人中心</el-dropdown-item>
+                        <el-dropdown-item command="setting">设置</el-dropdown-item>
+                        <el-dropdown-item command="logout">注销登录</el-dropdown-item>
                     </el-dropdown-menu>
                 </el-dropdown>
             </el-header>
@@ -55,7 +55,30 @@
             }
         },
         methods: {
-
+            commandHandler(command){
+             if (command=='logout'){
+                 this.$confirm('此操作将注销登录, 是否继续?', '提示', {
+                     confirmButtonText: '确定',
+                     cancelButtonText: '取消',
+                     type: 'warning'
+                 }).then(() => {
+                     //注销登录
+                     this.postRequest('/logout');
+                     //清空用户信息
+                     window.sessionStorage.removeItem('tokenStr');
+                     window.sessionStorage.removeItem('user');
+                     //清空菜单
+                     this.$store.commit('initRoutes',[]);
+                     //跳转登录页
+                     this.$router.replace('/')
+                 }).catch(() => {
+                     this.$message({
+                         type: 'info',
+                         message: '已取消操作'
+                     });
+                 });
+             }
+            }
         }
     }
 </script>
