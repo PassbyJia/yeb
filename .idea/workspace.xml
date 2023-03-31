@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="" />
+    <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/yeb/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/Login.vue" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/yeb-server/target/" />
@@ -179,7 +184,7 @@
       <path value="$PROJECT_DIR$/yeb/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -277,7 +282,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680253442362" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680253488784" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security-test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -389,12 +394,12 @@
       <workItem from="1678333066699" duration="11436000" />
       <workItem from="1678427659358" duration="9735000" />
       <workItem from="1678445675309" duration="6424000" />
-      <workItem from="1680246578623" duration="2435000" />
+      <workItem from="1680246578623" duration="2811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60052000" />
+    <option name="totallyTimeSpent" value="60428000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,7 +411,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

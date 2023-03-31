@@ -44,6 +44,8 @@ router.beforeEach((to,from,next)=>{
     //没有登录，但跳转的是登录页也可以
     if (to.path=='/'){
       next();
+    }else{
+      next('/?redirect='+to.path);
     }
   }
 })
