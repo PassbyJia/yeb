@@ -28,7 +28,17 @@ router.beforeEach((to,from,next)=>{
   //判断用户是否登录
   if (window.sessionStorage.getItem('tokenStr')){
     //已经登录则初始化菜单
-    initMenu(router,store);
+    initMenu(router, store);
+    //用户信息是否存在
+    if (!window.sessionStorage.getItem('user')){
+      return getRequest('/admin/info').then(resp=>{
+        if (resp){
+          //存入用户信息
+          window.sessionStorage.setItem('user',JSON.stringify(resp));
+          next();
+        }
+      })
+    }
     next();
   }else{
     //没有登录，但跳转的是登录页也可以
