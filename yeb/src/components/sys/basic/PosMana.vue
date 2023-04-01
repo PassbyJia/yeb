@@ -4,7 +4,7 @@
             <el-input
                     size="small"
                     class="addPosInput"
-                    placeholder="添加职位"
+                    placeholder="职位名称"
                     suffix-icon="el-icon-plus"
                     v-model="pos.name"
                     @keydown.enter.native="addPosition">
