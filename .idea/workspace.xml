@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/yeb/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/src/components/sys/basic/PosMana.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/components/sys/basic/PosMana.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/src/views/sys/SysBasic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/sys/SysBasic.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +20,7 @@
     <session id="-938241099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -31,10 +30,11 @@
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -73,7 +73,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -184,7 +184,7 @@
       <path value="$PROJECT_DIR$/yeb/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -199,7 +199,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +272,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,7 +282,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680270991117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681396009030" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security-test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -394,12 +394,13 @@
       <workItem from="1678333066699" duration="11436000" />
       <workItem from="1678427659358" duration="9735000" />
       <workItem from="1678445675309" duration="6424000" />
-      <workItem from="1680246578623" duration="4614000" />
+      <workItem from="1680246578623" duration="5199000" />
+      <workItem from="1681392302577" duration="1289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62231000" />
+    <option name="totallyTimeSpent" value="64105000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,9 +412,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25938338" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2627346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -423,7 +424,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3432624" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34265736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.09219858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -785,10 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
           <caret line="54" selection-start-line="54" selection-end-line="70" selection-end-column="5" />
-          <folding>
-            <element signature="e#1906#1907#0" expanded="true" />
-            <element signature="e#1953#1954#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

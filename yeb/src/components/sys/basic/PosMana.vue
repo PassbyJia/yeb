@@ -184,7 +184,7 @@
         margin-right: 8px;
     }
     .posManaMain{
-        margin-top: 10px;
+        margin-top: 8px;
     }
     .updatePosInput{
         width: 200px;

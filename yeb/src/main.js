@@ -10,7 +10,7 @@ import 'font-awesome/css/font-awesome.css'
 
 Vue.config.productionTip = false
 //安装ElementUI
-Vue.use(ElementUI)
+Vue.use(ElementUI,{size:'small'})
 
 import {postRequest} from "./utils/api";
 import {putRequest} from "./utils/api";
