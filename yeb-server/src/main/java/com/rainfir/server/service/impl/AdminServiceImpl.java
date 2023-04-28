@@ -1,10 +1,13 @@
 package com.rainfir.server.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.rainfir.server.AdminUtils;
 import com.rainfir.server.config.security.component.JwtTokenUtil;
+import com.rainfir.server.mapper.AdminRoleMapper;
 import com.rainfir.server.mapper.RoleMapper;
 import com.rainfir.server.pojo.Admin;
 import com.rainfir.server.mapper.AdminMapper;
+import com.rainfir.server.pojo.AdminRole;
 import com.rainfir.server.pojo.RespBean;
 import com.rainfir.server.pojo.Role;
 import com.rainfir.server.service.IAdminService;
@@ -48,6 +51,8 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     private String tokenHead;
     @Autowired
     private RoleMapper roleMapper;
+    @Autowired
+    private AdminRoleMapper adminRoleMapper;
 
     /**
      * 登录返回token
@@ -109,6 +114,32 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     @Override
     public List<Role> getRoles(Integer adminId) {
         return roleMapper.getRoles(adminId);
+    }
+
+    /**
+     * 获取所有操作员
+     * @param keywords
+     * @return
+     */
+    @Override
+    public List<Admin> getAllAdmins(String keywords) {
+        return adminMapper.getAllAdmins(AdminUtils.getCurrentAdmin().getId(),keywords);
+    }
+
+    /**
+     * 更新操作员角色
+     * @param adminId
+     * @param rids
+     * @return
+     */
+    @Override
+    public RespBean updateAdminRole(Integer adminId, Integer[] rids) {
+        adminRoleMapper.delete(new QueryWrapper<AdminRole>().eq("adminId",adminId));
+        Integer result = adminRoleMapper.addAdminRole(adminId, rids);
+        if (rids.length == result){
+            return RespBean.success("更新成功！");
+        }
+        return RespBean.error("更新失败！");
     }
 
 }
