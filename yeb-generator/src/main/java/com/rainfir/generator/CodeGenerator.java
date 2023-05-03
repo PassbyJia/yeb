@@ -54,7 +54,7 @@ public class CodeGenerator {
         final String projectPath = System.getProperty("user.dir");
         gc.setOutputDir(projectPath + "/yeb-server/src/main/java");
         //作者
-        gc.setAuthor("zhoubin");
+        gc.setAuthor("rainfir");
         //打开输出目录
         gc.setOpen(false);
         //xml开启 BaseResultMap
@@ -63,6 +63,8 @@ public class CodeGenerator {
         gc.setBaseColumnList(true);
         // 实体属性 Swagger2 注解
         gc.setSwagger2(true);
+        //是否覆盖生成文件
+        gc.setFileOverride(false);
         mpg.setGlobalConfig(gc);
 
         // 数据源配置
