@@ -57,6 +57,27 @@
             <result column="posname" property="name" />
         </association>
     </resultMap>
+
+    <resultMap id="EmployeeWithSalary" type="com.rainfir.server.pojo.Employee" extends="BaseResultMap">
+        <association property="salary" javaType="com.rainfir.server.pojo.Salary">
+            <id column="sid" property="id" />
+            <result column="sname" property="name" />
+            <result column="sbasicSalary" property="basicSalary" />
+            <result column="sbonus" property="bonus" />
+            <result column="slunchSalary" property="lunchSalary" />
+            <result column="strafficSalary" property="trafficSalary" />
+            <result column="sallSalary" property="allSalary" />
+            <result column="spensionBase" property="pensionBase" />
+            <result column="spensionPer" property="pensionPer" />
+            <result column="smedicalBase" property="medicalBase" />
+            <result column="smedicalPer" property="medicalPer" />
+            <result column="saccumulationFundBase" property="accumulationFundBase" />
+            <result column="saccumulationFundPer" property="accumulationFundPer" />
+        </association>
+        <association property="department" javaType="com.rainfir.server.pojo.Department">
+            <result column="dname" property="name" />
+        </association>
+    </resultMap>
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
         id, name, gender, birthday, idCard, wedlock, nationId, nativePlace, politicId, email, phone, address, departmentId, jobLevelId, posId, engageForm, tiptopDegree, specialty, school, beginDate, workState, workID, contractTerm, conversionTime, notWorkDate, beginContract, endContract, workAge, salaryId
@@ -148,6 +169,35 @@
             AND e.id=#{id}
         </if>
         ORDER BY
+        e.id
+    </select>
+
+    <!--获取所有员工账套-->
+    <select id="getEmployeeWithSalary" resultMap="EmployeeWithSalary">
+      SELECT
+        e.*,
+        d.`name` AS dbane,
+        s.id AS sid,
+        s.`name` AS sname,
+        s.basicSalary AS sbasicSalary,
+        s.bonus AS sbonus,
+        s.lunchSalary AS slunchSalary,
+        s.trafficSalary AS straddicSalary,
+        s.allSalary AS sallSalary,
+        s.pensionBase AS spersionBase,
+        s.pensionPer AS spersionPer,
+        s.medicalBase AS smedicalBase,
+        s.medicalPer AS smedicalPer,
+        s.accumulationFundBase AS saccumulationFundBase,
+        s.accumulationFundPer AS saccumulationFundPer
+    FROM
+        t_employee e,
+        t_salary s,
+        t_department d
+    WHERE
+        e.salaryId = s.id
+        AND e.departmentId = d.id
+    ORDER BY
         e.id
     </select>
 </mapper>

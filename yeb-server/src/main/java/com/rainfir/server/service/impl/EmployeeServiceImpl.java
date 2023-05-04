@@ -122,4 +122,22 @@ public class EmployeeServiceImpl extends ServiceImpl<EmployeeMapper, Employee> i
     public List<Employee> getEmployee(Integer id) {
         return employeeMapper.getEmployee(id);
     }
+
+    /**
+     * 获取所有员工账套
+     * com.rainfir.server.pojo.RespPageBean
+     *
+     * @param currentPage
+     * @param size
+     * @return
+     * @author rainfir
+     * @create 2023/5/5
+     **/
+    @Override
+    public RespPageBean getEmployeeWithSalary(Integer currentPage, Integer size) {
+        Page<Employee> page = new Page<>(currentPage, size);
+        IPage<Employee> employeeIPage = employeeMapper.getEmployeeWithSalary(page);
+        RespPageBean respPageBean = new RespPageBean(employeeIPage.getTotal(), employeeIPage.getRecords());
+        return respPageBean;
+    }
 }

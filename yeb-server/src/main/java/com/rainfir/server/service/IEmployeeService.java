@@ -56,4 +56,15 @@ public interface IEmployeeService extends IService<Employee> {
      * @create 2023/5/3
      **/
     List<Employee> getEmployee(Integer id);
+
+    /**
+     * 获取所有员工账套
+     * com.rainfir.server.pojo.RespPageBean
+     * @return
+ * @param currentPage
+ * @param size
+     * @author rainfir
+     * @create 2023/5/5
+     **/
+    RespPageBean getEmployeeWithSalary(Integer currentPage, Integer size);
 }

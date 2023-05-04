@@ -42,4 +42,15 @@ public interface EmployeeMapper extends BaseMapper<Employee> {
      * @create 2023/5/3
      **/
     List<Employee> getEmployee(Integer id);
+
+    /**
+     * 获取所有员工账套
+     * com.rainfir.server.pojo.RespPageBean
+     *
+     * @param page
+     * @return
+     * @author rainfir
+     * @create 2023/5/5
+     **/
+    IPage<Employee> getEmployeeWithSalary(Page<Employee> page);
 }
