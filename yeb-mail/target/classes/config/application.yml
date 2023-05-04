@@ -1,0 +1,29 @@
+server:
+    #端口
+    port: 8082
+spring:
+    #邮件配置
+    mail:
+        #邮件服务器地址
+        host: smtp.163.com
+        #协议
+        protocol: smtp
+        #编码格式
+        default-encoding: utf-8
+        #授权码（在邮箱开通服务时获取）
+        password: IHVQGXKMCDBLTZDX
+        #发送者邮箱地址
+        username: leibin2333@163.com
+        #端口（不同邮箱端口号不同）
+        port: 25
+
+    #rabbitma配置
+    rabbitmq:
+        #用户名：
+        username: guest
+        #密码：
+        password: guest
+        #服务器地址
+        host: 127.0.0.1
+        #端口
+        port: 5672

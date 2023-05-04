@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-generator/target/classes/com/rainfir/generator/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb-generator/yeb-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-generator/yeb-generator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/PoliticsStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/PoliticsStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Position.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeEcService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeEcService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/controller/EmployeeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/mapper/EmployeeMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/mapper/EmployeeMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/pojo/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/pojo/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/IEmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/IEmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/impl/EmployeeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/impl/EmployeeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/config/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb-server/yeb-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/yeb-server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb.iml" afterDir="false" />
     </list>
@@ -33,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/yeb-server/target/" />
     <ignored path="$PROJECT_DIR$/yeb-generator/target/" />
+    <ignored path="$PROJECT_DIR$/yeb-mail/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +31,15 @@
     <session id="-938241099">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.105" value="1" />
           <entry key="project.open.time.107" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -62,41 +52,46 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
+          <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="144" />
-          <entry key="xml" value="27" />
-          <entry key="yml" value="8" />
+          <entry key="java" value="151" />
+          <entry key="xml" value="35" />
+          <entry key="yml" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
+          <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="144" />
-          <entry key="XML" value="27" />
-          <entry key="YAML" value="8" />
+          <entry key="JAVA" value="151" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="35" />
+          <entry key="YAML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="13717" />
-          <entry key="xml" value="2837" />
-          <entry key="yml" value="321" />
+          <entry key="html" value="280" />
+          <entry key="java" value="14449" />
+          <entry key="xml" value="2930" />
+          <entry key="yml" value="675" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13717" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="HTML" value="280" />
+          <entry key="JAVA" value="14449" />
+          <entry key="PLAIN_TEXT" value="356" />
           <entry key="SQL" value="26" />
-          <entry key="XML" value="2811" />
+          <entry key="XML" value="2904" />
           <entry key="YAML" value="321" />
         </counts>
       </usages-collector>
@@ -104,14 +99,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="143" selection-start-line="143" selection-end-line="175" selection-end-column="5" />
+            <state relative-caret-position="1920">
+              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
               <folding>
-                <element signature="e#2360#2361#0" expanded="true" />
-                <element signature="e#2415#2416#0" expanded="true" />
                 <element signature="method#exportEmployee#0;class#EmployeeController#0" />
                 <element signature="method#importEmployee#0;class#EmployeeController#0" />
               </folding>
@@ -120,10 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Nation.java">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="1230">
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,30 +124,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+            <state relative-caret-position="510">
+              <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailReceiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
               <folding>
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3105#3106#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+            <state relative-caret-position="173">
+              <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
+        <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+            <state relative-caret-position="-67">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeb-mail/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/resources/config/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeb-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2910">
+              <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -164,6 +195,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -174,13 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/component/CustomUrlDecisionManager.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/exception/GlobalException.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/JoblevelController.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PositionController.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissController.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IMenuService.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/MenuMapper.java" />
@@ -190,7 +215,6 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/MenuRoleMapper.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/MenuRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissionController.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IDepartmentService.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/DepartmentMapper.java" />
@@ -213,9 +237,7 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/Nation.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/NationMapper.java" />
         <option value="$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/yeb-server/pom.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Employee.java" />
@@ -225,6 +247,16 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Joblevel.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Position.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/yeb-mail/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/yeb-mail/src/main/resources/templates/mail.html" />
+        <option value="$PROJECT_DIR$/yeb-server/pom.xml" />
+        <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/yeb-mail/pom.xml" />
+        <option value="$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailApplication.java" />
+        <option value="$PROJECT_DIR$/yeb-mail/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml" />
+        <option value="$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailReceiver.java" />
       </list>
     </option>
   </component>
@@ -248,6 +280,40 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="yeb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-mail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-mail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-mail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="yeb-mail" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.rainfir:yeb-server:0.0.1-SNAPSHOT" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -289,8 +355,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -301,37 +365,37 @@
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="yeb-mail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="yeb-mail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="yeb-mail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="yeb-mail" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yeb" type="462c0819:PsiDirectoryNode" />
+              <item name="yeb-mail" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
@@ -358,66 +422,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
@@ -441,88 +445,48 @@
               <item name="yeb" type="462c0819:PsiDirectoryNode" />
               <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="generated-test-sources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yeb" type="462c0819:PsiDirectoryNode" />
-              <item name="yeb-server" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1682761594625" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1683212965312" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/yeb-mail" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.5965517" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\学习\专业\做过的项目\yeb\yeb-server\src\main\resources\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\学习\专业\做过的项目\yeb\yeb-mail\src\main\resources\config" />
+      <recent name="F:\学习\专业\做过的项目\yeb\yeb-server\src\main\resources\config" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rainfir.mail" />
       <recent name="com.rainfir.server.mapper" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\学习\专业\做过的项目\yeb\yeb-server\src\main\resources\config" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习\专业\做过的项目\yeb\yeb-server\src\main\resources\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -537,7 +501,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.YebApplication">
+  <component name="RunManager" selected="Spring Boot.MailApplication">
     <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rainfir.generator.CodeGenerator" />
       <module name="yeb-generator" />
@@ -577,6 +541,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MailApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yeb-mail" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rainfir.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rainfir.mail.MailApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="yeb-server" />
       <extension name="coverage">
@@ -595,9 +572,11 @@
       <item itemvalue="Application.CodeGenerator" />
       <item itemvalue="Application.TestJWT" />
       <item itemvalue="Application.TestStatic" />
+      <item itemvalue="Spring Boot.MailApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.MailApplication" />
         <item itemvalue="Spring Boot.YebApplication" />
         <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Application.TestJWT" />
@@ -632,12 +611,14 @@
       <workItem from="1682595982535" duration="4727000" />
       <workItem from="1682680319539" duration="7861000" />
       <workItem from="1682752352869" duration="8795000" />
-      <workItem from="1683097416531" duration="8181000" />
+      <workItem from="1683097416531" duration="8489000" />
+      <workItem from="1683198567943" duration="7600000" />
+      <workItem from="1683210571947" duration="2121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93786000" />
+    <option name="totallyTimeSpent" value="103815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +633,7 @@
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2808311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.288874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -662,7 +643,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4167832" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4167832" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2769231" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -671,10 +652,9 @@
       <window_info anchor="bottom" id="TODO" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3272727" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32587412" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32867134" />
       <window_info anchor="bottom" id="Spring" order="13" />
-      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -684,6 +664,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,42 +678,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissController.java" />
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IMenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/PermissionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IMenuRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/MenuRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/MenuRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/MenuRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -912,20 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-960">
-          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/DepartmentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1163">
@@ -951,45 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-107">
           <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-997">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
-          <folding>
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="149" column="16" lean-forward="true" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1030,23 +922,194 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Nation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="810">
           <caret line="38" selection-start-line="38" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4470">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-generator/src/main/java/com/rainfir/generator/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/resources/templates/mail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="143" selection-start-line="143" selection-end-line="175" selection-end-column="5" />
+        <state relative-caret-position="1920">
+          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
           <folding>
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2415#2416#0" expanded="true" />
             <element signature="method#exportEmployee#0;class#EmployeeController#0" />
             <element signature="method#importEmployee#0;class#EmployeeController#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-mail/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-mail/src/main/java/com/rainfir/mail/MailReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="59" column="36" selection-start-line="59" selection-start-column="36" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>yeb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5965517" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.5965517" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
