@@ -174,30 +174,27 @@
 
     <!--获取所有员工账套-->
     <select id="getEmployeeWithSalary" resultMap="EmployeeWithSalary">
-      SELECT
-        e.*,
-        d.`name` AS dbane,
-        s.id AS sid,
-        s.`name` AS sname,
-        s.basicSalary AS sbasicSalary,
-        s.bonus AS sbonus,
-        s.lunchSalary AS slunchSalary,
-        s.trafficSalary AS straddicSalary,
-        s.allSalary AS sallSalary,
-        s.pensionBase AS spersionBase,
-        s.pensionPer AS spersionPer,
-        s.medicalBase AS smedicalBase,
-        s.medicalPer AS smedicalPer,
-        s.accumulationFundBase AS saccumulationFundBase,
-        s.accumulationFundPer AS saccumulationFundPer
-    FROM
-        t_employee e,
-        t_salary s,
-        t_department d
-    WHERE
-        e.salaryId = s.id
-        AND e.departmentId = d.id
-    ORDER BY
-        e.id
+        SELECT
+            e.*,
+            d.`name` AS dname,
+            s.id AS sid,
+            s.`name` AS sname,
+            s.basicSalary AS sbasicSalary,
+            s.bonus AS sbonus,
+            s.lunchSalary AS slunchSalary,
+            s.trafficSalary AS strafficSalary,
+            s.allSalary AS sallSalary,
+            s.pensionBase AS spensionBase,
+            s.pensionPer AS spensionPer,
+            s.medicalBase AS smedicalBase,
+            s.medicalPer AS smedicalPer,
+            s.accumulationFundBase AS saccumulationFundBase,
+            s.accumulationFundPer AS saccumulationFundPer
+        FROM
+            t_employee e
+            LEFT JOIN t_salary s ON e.salaryId = s.id
+            LEFT JOIN t_department d ON e.departmentId = d.id
+        ORDER BY
+            e.id
     </select>
 </mapper>

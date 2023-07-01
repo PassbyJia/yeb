@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab4ee32-1534-4ff3-bbd0-7da46b77ae28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-mail/target/classes/com/rainfir/mail/MailApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-mail/target/classes/com/rainfir/mail/MailReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IAdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IAdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/config/security/SecurityConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/config/security/SecurityConfig$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/config/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/config/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/pojo/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/pojo/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/IAdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/IAdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/target/classes/com/rainfir/server/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/components/sys/basic/DepMana.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/components/sys/basic/DepMana.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/views/emp/EmpBasic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/emp/EmpBasic.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/views/sys/SysAdmin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/sys/SysAdmin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yeb/src/views/sys/SysBasic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/sys/SysBasic.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeb/src/views/sal/SalSob.vue" beforeDir="false" afterPath="$PROJECT_DIR$/yeb/src/views/sal/SalSob.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,8 +52,8 @@
           <entry key="class" value="51" />
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="214" />
-          <entry key="xml" value="39" />
+          <entry key="java" value="216" />
+          <entry key="xml" value="40" />
           <entry key="yml" value="21" />
         </counts>
       </usages-collector>
@@ -79,9 +62,9 @@
           <entry key="CLASS" value="51" />
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="214" />
+          <entry key="JAVA" value="216" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="XML" value="39" />
+          <entry key="XML" value="40" />
           <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
@@ -90,7 +73,7 @@
           <entry key="dummy" value="2" />
           <entry key="html" value="280" />
           <entry key="java" value="20350" />
-          <entry key="xml" value="3149" />
+          <entry key="xml" value="3159" />
           <entry key="yml" value="730" />
         </counts>
       </usages-collector>
@@ -99,8 +82,8 @@
           <entry key="HTML" value="280" />
           <entry key="JAVA" value="20350" />
           <entry key="PLAIN_TEXT" value="356" />
-          <entry key="SQL" value="29" />
-          <entry key="XML" value="3120" />
+          <entry key="SQL" value="32" />
+          <entry key="XML" value="3127" />
           <entry key="YAML" value="376" />
         </counts>
       </usages-collector>
@@ -109,73 +92,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/SalarySobCfgController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="-262">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/AdminServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="97" column="70" selection-start-line="97" selection-start-column="70" selection-end-line="97" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12300">
-              <caret line="458" column="22" selection-start-line="458" selection-start-column="22" selection-end-line="458" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/CaptchaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2700">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="3697">
+              <caret line="180" column="30" lean-forward="true" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -231,7 +169,6 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/Employee.java" />
-        <option value="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/SalarySobCfgController.java" />
         <option value="$PROJECT_DIR$/yeb-server/pom.xml" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/pojo/ChatMsg.java" />
@@ -247,6 +184,7 @@
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/component/RestfulAccessDeniedHandler.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/component/RestAuthorizationEntryPoint.java" />
         <option value="$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/config/security/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml" />
       </list>
     </option>
   </component>
@@ -331,7 +269,7 @@
       <path value="$PROJECT_DIR$/yeb/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
@@ -498,7 +436,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1686514561700" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1688235470465" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../JAVA/crawler" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -652,12 +590,12 @@
       <workItem from="1686333837697" duration="1861000" />
       <workItem from="1686427070238" duration="4054000" />
       <workItem from="1688025808934" duration="769000" />
-      <workItem from="1688122138501" duration="1475000" />
+      <workItem from="1688122138501" duration="4246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137323000" />
+    <option name="totallyTimeSpent" value="140094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,31 +697,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/IEmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="59" selection-start-line="59" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="90" column="49" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1033">
-          <caret line="67" column="50" selection-end-line="203" />
         </state>
       </provider>
     </entry>
@@ -1060,14 +977,14 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.6.RELEASE/spring-aop-5.2.6.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12300">
+        <state relative-caret-position="14040">
           <caret line="458" column="22" selection-start-line="458" selection-start-column="22" selection-end-line="458" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
+        <state relative-caret-position="2970">
           <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
@@ -1081,7 +998,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
+        <state relative-caret-position="2790">
           <caret line="105" selection-start-line="105" selection-end-line="105" />
         </state>
       </provider>
@@ -1109,8 +1026,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/AdminServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="-1301">
           <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/controller/SalarySobCfgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/java/com/rainfir/server/service/impl/EmployeeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="138" column="62" lean-forward="true" selection-start-line="138" selection-start-column="62" selection-end-line="138" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yeb-server/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3697">
+          <caret line="180" column="30" lean-forward="true" selection-start-line="180" selection-start-column="30" selection-end-line="180" selection-end-column="30" />
         </state>
       </provider>
     </entry>

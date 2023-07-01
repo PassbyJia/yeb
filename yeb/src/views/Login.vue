@@ -33,7 +33,7 @@
                 captchaUrl: '/captcha?time='+ new Date(),
                 loginForm: {
                     username: 'admin',
-                    password: '123',
+                    password: '456',
                     code:''
                 },
                 loading:false,
