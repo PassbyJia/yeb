@@ -4,8 +4,9 @@
             <el-header class="homeHeader">
                 <div class="title">云E办</div>
                 <el-dropdown class="userInfo" @command="commandHandler">
-                <span class="el-dropdown-link">
-                {{user.name}}<img src="user.userFace"></img>
+                <span class="el-dropdown-link" style="color: white">
+                    <span>{{user.name}}</span>
+                    <img :src="user.userFace">
                 </span>
                     <el-dropdown-menu slot="dropdown">
                         <el-dropdown-item command="userinfo">个人中心</el-dropdown-item>
@@ -112,6 +113,9 @@
         height: 48px;
         border-radius: 24px;
         margin-left: 8px;
+    }
+    .el-dropdown-link span{
+        display: ruby-text;
     }
     .homeWelcome{
         text-align: center;

@@ -56,4 +56,16 @@ public interface IAdminService extends IService<Admin> {
      * @return
      */
     RespBean updateAdminRole(Integer adminId, Integer[] rids);
+
+    /**
+     * 更新用户密码
+     * com.rainfir.server.pojo.RespBean
+     * @return
+ * @param oldPass
+ * @param pass
+ * @param adminId
+     * @author rainfir
+     * @create 2023/5/5
+     **/
+    RespBean updateAdminPassword(String oldPass, String pass, Integer adminId);
 }

@@ -17,12 +17,14 @@ import {putRequest} from "./utils/api";
 import {getRequest} from "./utils/api";
 import {deleteRequest} from "./utils/api";
 import {initMenu} from "./utils/menus";
+import {downloadRequest} from "./utils/download";
 
 //插件
 Vue.prototype.postRequest = postRequest;
 Vue.prototype.putRequest = putRequest;
 Vue.prototype.getRequest = getRequest;
 Vue.prototype.deleteRequest = deleteRequest;
+Vue.prototype.downloadRequest = downloadRequest;
 
 router.beforeEach((to,from,next)=>{
   //判断用户是否登录
