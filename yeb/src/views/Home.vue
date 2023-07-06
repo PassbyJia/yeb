@@ -65,6 +65,9 @@
         computed:{
             routes(){
                 return this.$store.state.routes;
+            },
+            user(){
+                return this.$store.state.currentAdmin;
             }
         },
         methods: {
@@ -93,6 +96,9 @@
                          message: '已取消操作'
                      });
                  });
+             }
+             if (command=='userinfo'){
+                 this.$router.push('/admininfo');
              }
             }
         }

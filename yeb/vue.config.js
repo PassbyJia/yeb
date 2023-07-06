@@ -12,10 +12,14 @@ proxyObj['/'] = {
     '^/': '/'
   }
 }
+
 module.exports = {
   devServer: {
     host: 'localhost',
     port: 8080,
-    proxy: proxyObj
+    proxy: proxyObj,
+    client: {
+      webSocketURL: 'ws://0.0.0.0:8081',
+    }
   }
 }
